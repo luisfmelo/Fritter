@@ -1,5 +1,65 @@
+html {
+  background-color: #B8ECEF;
+}
+
+body {
+  width: 40em;
+  margin: auto;
+  background-color: white;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+section {
+  padding: 10px 20px;
+}
+
+section h2 {
+  margin: 5px 0;
+}
+
 .tweet {
   border: 1px solid green;
   padding: 10px;
   margin-bottom: 5px;
+}
+
+.tweet-data {
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 1px solid #999;
+}
+
+.tweet-data .realname {
+  font-weight: bold;
+}
+
+.tweet-data .username {
+  color: #666;
+}
+
+.tweet-data .tweet-text {
+  margin-top: 5px;
+}
+
+.tweet-data .time {
+  position: absolute;
+  right: 0;
+}
+
+label {
+  width: 100px;
+  display: block;
 }
