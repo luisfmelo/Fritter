@@ -8,4 +8,6 @@
   <body>
     <header>
       <h1><a href="{$BASE_URL}/pages/tweets/list_all.php">Fritter</a></h1>
+      <a href="{$BASE_URL}/pages/users/register.php">Register</a>
+
     </header>

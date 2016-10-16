@@ -15,7 +15,9 @@
 
 // Smarty Template Engine
   $smarty = new Smarty();
+  
   $smarty->error_reporting = E_ALL & ~E_NOTICE;
   $smarty->template_dir = $BASE_DIR . 'templates/';
   $smarty->compile_dir = $BASE_DIR . 'lib/smarty/templates_c/';
+  $smarty->assign('BASE_URL', $BASE_URL);
 ?>
