@@ -6,7 +6,7 @@
 
   <article class="tweet">
     <span class="realname">{$tweet.realname}</span>
-    <a href="#" class="username">@{$tweet.username}</a>
+    <a href="{$BASE_URL}/pages/tweets/list_user.php?username={$tweet.username}" class="username">@{$tweet.username}</a>
     <span class="time">{$tweet.time}</span>
     <div class="tweet-text">{$tweet.text}</div>
   </article>
