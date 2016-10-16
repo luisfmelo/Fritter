@@ -63,3 +63,10 @@ label {
   width: 100px;
   display: block;
 }
+
+.error {
+  background-color: #FFAAAA;
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+}
