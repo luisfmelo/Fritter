@@ -5,5 +5,6 @@
   $tweets = getAllTweets();
 
   $smarty->assign('tweets', $tweets);
+  $smarty->assign('BASE_URL', $BASE_URL);
   $smarty->display('tweets/list.tpl');
 ?>
