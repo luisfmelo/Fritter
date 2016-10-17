@@ -13,6 +13,10 @@ header {
   padding: 10px;
 }
 
+header .username {
+  color: cyan;
+}
+
 header a {
   text-decoration: none;
   color: white;
@@ -20,6 +24,16 @@ header a {
 
 header h1 {
   margin: 0;
+}
+
+header form {
+  display:inline;
+  float: right;
+}
+
+header input[type=text],
+header input[type=password] {
+  width: 100px;
 }
 
 section {
@@ -66,6 +80,13 @@ label {
 
 .error {
   background-color: #FFAAAA;
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.success {
+  background-color: #AAFFAA;
   padding: 10px;
   color: #333;
   font-weight: bold;
