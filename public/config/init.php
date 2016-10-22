@@ -7,7 +7,7 @@
 
   require_once 'dbconfig.php';
 
-  $BASE_DIR = '/var/www/public/';
+  $BASE_DIR = dirname(dirname(__FILE__)) . '/'; // '/var/www/public/';
   $BASE_URL = '../..';
 
   include_once($BASE_DIR . 'lib/smarty/Smarty.class.php');
